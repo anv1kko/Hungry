@@ -1,0 +1,167 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+  .ellipse-1 {
+    top: -3px;
+    right: -55px;
+  }
+  .ellipse-2 {
+    bottom: -60px;
+    left: 430px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 900px;
+  }
+  .header-btn {
+    right: -5px;
+  }
+  .ellipse-1 {
+    top: 6px;
+    right: -115px;
+  }
+  .ellipse-2 {
+    bottom: -85px;
+    left: 402px;
+  }
+  .update-cols {
+    width: 50%;
+    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .update-cols-center {
+    width: 100%;
+    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-column {
+    flex-wrap: wrap;
+  }
+
+}
+
+  @media (max-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+    .footer-column {
+      flex-wrap: wrap;
+    }
+    .available-title{
+      margin-left: -15px;
+
+    }
+    .col-6  {
+      width: 100%;
+    }
+    .ellipse-2 {
+      bottom: -64px;
+      left: 58px;
+    }
+    .ellipse-1 {
+      top: 362px;
+      right: 40px;
+    }
+    .justify-content {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .available-btn {
+      margin-right: 206px;
+    }
+    .header-google-app {
+      margin-bottom: 20px;
+    }
+    .flex-direction-column {
+      flex-direction: column;
+      text-align: center;
+    }
+    .features-img {
+      position: static;
+      text-align: center;
+    }
+    .features-title {
+      text-align: center;
+    }
+
+
+
+  }
+
+  @media (max-width: 576px) {
+    .menu-link   {
+      flex-direction: column;
+      display: flex;
+    }
+    .footer-column {
+      flex-wrap: wrap;
+    }
+    .col-6 {
+      width: 100%;
+    }
+    .col-4 {
+      width: 100%;
+      padding: 0 15px;
+    }
+    .companies-title {
+      text-align: center;
+    }
+    .ellipse-1 {
+      top: 355px;
+      right: -20px;
+    }
+    .ellipse-2 {
+      bottom: -69px;
+      left: 0;
+    }
+    .header-btn {
+
+    }
+    .features-title {
+      text-align: center;
+
+    }
+
+    .justify-content {
+      justify-content: center;
+    }
+    .update-cols {
+      margin-bottom: 20px;
+    }
+
+  }
+@media (max-width: 539px) {
+  .header-btn {
+    bottom: -68px;
+  }
+  .justify-content {
+    justify-content: center;
+  }
+  .ellipse-1 {
+    display: none;
+  }
+  .ellipse-2 {
+    display: none;
+  }
+  .available-title {
+    text-align: center;
+  }
+  .features-img {
+    position: relative;
+  }
+
+
+}
+
